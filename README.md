@@ -1,9 +1,21 @@
-# identificador-de-numeros-pares-impares
+# Identificador-de-n-meros-pares-impares
 
-Essa é uma contribuição para o projeto de identificador de números pares e impares 
+par = []
+impar = []
 
-Autor:
-PedropereiraDevS - https://github.com/PedropereiraDevS
+for i in range(2):
+    numero = int(input('Digite um numero: ') 
+    if numero % 2 == 0:
+    par.append(numero)
 
-Projeto:
-https://github.com/PedropereiraDevS/Identificador-de-n-meros-pares-impares#
+    else:
+        impar.append(numero)
+
+print('\nOs numeros pares são:')
+for numero in par:
+    print(f' - {numero}')
+
+print('\nOs numeros impares são:')
+for numero in impar:
+    print(f' - {numero}')
+    
