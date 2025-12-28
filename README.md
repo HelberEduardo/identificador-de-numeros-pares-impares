@@ -1,21 +1,7 @@
 # Identificador-de-n-meros-pares-impares
 
-par = []
-impar = []
+Essa é uma contribuição para o projeto de identificador de números pares e impares
 
-for i in range(2):
-    numero = int(input('Digite um numero: ') 
-    if numero % 2 == 0:
-    par.append(numero)
+Autor: PedropereiraDevS - https://github.com/PedropereiraDevS
 
-    else:
-        impar.append(numero)
-
-print('\nOs numeros pares são:')
-for numero in par:
-    print(f' - {numero}')
-
-print('\nOs numeros impares são:')
-for numero in impar:
-    print(f' - {numero}')
-    
+Projeto: https://github.com/PedropereiraDevS/Identificador-de-n-meros-pares-impares#
